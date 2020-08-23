@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <!-- SPOC HECK -->
+    <!-- <div class="container"></div>
+
+    <script id="items-template">
+        {{#each classmates}}
+            {{#if socialNetwork}}
+        <p>
+            <span >{{name}}</span> - <span>{{description}}</span>
+        </p>
+            {{/if}}
+        {{/each}}
+    </script> -->
+
+
+    <!-- ANOTHER SPOT CHECK -->
+    <div id = "animals-container"></div>
+
+    <div id = "languages-container"></div>
+
+
+
+
+    <script id = "animals-template" type = "text/x-handlebars-template">
+        {{#each animals}}
+        <p style = "display:inline"> 
+            <span > {{this}} ,</span>
+        </p>
+        {{/each}}
+    </script>
+
+
+
+    <script id = "languages-template" type = "text/x-handlebars-template">
+            <span>{{languages}}</span>
+    </script>
+
+
+    <!-- script files import -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.6/handlebars.min.js" integrity="sha512-zT3zHcFYbQwjHdKjCu6OMmETx8fJA9S7E6W7kBeFxultf75OPTYUJigEKX58qgyQMi1m1EgenfjMXlRZG8BXaw==" crossorigin="anonymous"></script>
+    <script src = "jquery-3.5.1.js"></script>
+    <script src = "main.js"></script>
+</body>
+</html>
