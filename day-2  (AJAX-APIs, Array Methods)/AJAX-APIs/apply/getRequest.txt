@@ -1,0 +1,8 @@
+Steps for making an API GET request:
+1) make sure you have the right url for the request.
+2) understand the request's ruls and needed query strings.
+3) understand the data: What is the response and how can I use it?
+    3.1) Make the request.
+4) Remember that requests are asynchronous, and the actions made with the data must be taken considerably
+(AKA- inside of the request's callback function).
+5) Handle errors.
