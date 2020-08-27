@@ -50,16 +50,3 @@ console.log(recipe.ingredients.filter(i => i.name == "garlic powder")[0].count) 
 console.log(recipe.healthy) //should print true
 console.log(recipe.calories) //should print 250
 console.log(recipe.directions[0]) //should print "Cut potatoes into half inch thick slices"
-
-
-let animals = {
-    "name": "string",
-    "weight":50,
-    "units:":"Kg",
-    "habitat":"string",
-    "endangered":true,
-    "nourishment":["array","of","strings"],
-    "family":{"animal name":"kind of nourishment"},
-    "deliciousness":0
-
-}
